@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+
+body {
+  background-color: #0a4d68;
+}
+
+.container {
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 2.5rem;
+  color: aliceblue;
+}
+
+input,
+textarea,
+button {
+  padding: 15px;
+  border: 1px solid reg(0, 0, 0, 0.214);
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+
+.task {
+  display: flex;
+  background-color: rgb(243, 245, 247);
+  padding: 20px;
+  border-radius: 25px;
+  align-items: center;
+  margin: 20px 0;
+  background-color: #43c9e4;
+}
+
+.task > div {
+  width: 100%;
+}
+
+.task span {
+  color: rgb(12, 12, 12);
+}
+
+.task > button {
+  border-radius: 25px;
+  width: 100px;
+  height: 30px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(241, 19, 19);
+}
+
+.task button:hover {
+  background-color: rgb(192, 55, 55);
+}
